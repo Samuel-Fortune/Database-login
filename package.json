@@ -1,0 +1,27 @@
+{
+  "name": "demo",
+  "version": "1.0.0",
+  "description": "demo",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "npx tailwindcss -i ./src/dist/style.css -o ./src/dist/output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Samuel-Fortune/Database-login"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Samuel-Fortune/Database-login/issues"
+  },
+  "homepage": "https://github.com/Samuel-Fortune/Database-login#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.2.4"
+  },
+  "dependencies": {
+    "jquery": "^3.6.1",
+    "once": "^1.4.0"
+  }
+}
