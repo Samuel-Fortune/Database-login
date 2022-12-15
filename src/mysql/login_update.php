@@ -8,18 +8,7 @@ if (isset($_POST['submit'])) {
 }
 
 ?>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-
-    <!--Stylesheet-->
-    <link rel="stylesheet" href="../dist/output.css">
-</head>
-<body>
+<?php include "includes/header.php"; ?>
     <div class="w-full h-screen flex items-center justify-center bg-indigo-100">
         <form action="login_update.php" method="post" class="w-full md:w-1/3 rounded-lg">
             <div class="flex font-bold justify-center mt-6">
@@ -96,6 +85,4 @@ if (isset($_POST['submit'])) {
                 </button>
             </div>
         </form>
-    </div>
-</body>
-</html>
+<?php include "includes/footer.php";?>
