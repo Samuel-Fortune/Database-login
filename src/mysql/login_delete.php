@@ -9,10 +9,10 @@ if (isset($_POST['submit'])) {
 ?>
 <?php include "includes/header.php";?>
 <body>
-    <div class="w-full h-screen flex items-center justify-center bg-indigo-100">
-        <form action="login_delete.php" method="post" class="w-full md:w-1/3 rounded-lg">
+    <div class="w-full h-screen flex items-center justify-center      bg-indigo-100">
+        <form action="login_delete.php" method="post" class="w-full   md:w-1/3 rounded-lg">
             <div class="flex font-bold justify-center mt-6">
-                <img class="h-32 w-32 mb-3 rounded-full transition-all hover:animate-pulse hover:transition-all" src="https://images.unsplash.com/photo-1670871296086-dbb732f5938d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=800&q=60" />
+              <img class="h-32 w-32 mb-3 rounded-fulltransition-all hover:animate-pulsehover:transition-all" src="https://images.unsplashcom/photo-1670871296086-dbb732f5938d?ixlib=rb-4.0.3ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzfHx8ZW58MHx8Hw%3D&auto=format&fit=crop&w=800&q=60" />
             </div>
             <h2 class="text-2xl text-center text-black mb-8">Delete</h2>
             <div class="px-12 pb-10">
